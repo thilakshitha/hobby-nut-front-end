@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/79a35bcb9e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+<div> <h1> <a href="" class="logo"><img src="images/logo.png"></a></h1></div>
+
+  <nav>
+
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+      
+    <a href="login.html">login</a>
+      <a href="aboutus.html"class="active">About Us</a>
+      <a href="contactus.html" >Contact Us</a>
+      <a href="collection.html" >Collection</a>
+      <a href="index.html" >Home</a>
+    
+  </nav>
+
+  <section class="coll-bannar">
+    <section class="center">
+      <h1>About Us </h1>
+      <p style="padding-top: 25px;" >"Welcome to our Movie & TV Series Collection, where entertainment meets discovery! We are passionate about bringing you the latest and greatest in the world of cinema and television"</p>
+
+      <a href="#about"><button class="primarybtn" >
+        
+        View more<i style='font-size:18px' class='fas'>&#xf0d7;</i>
+      </button></a>
+    </section>
+  </section>
+
+  <section id="about">
+
+    <div class="about-container">
+      <div class="about-section">
+        <div class="about-text">
+          <h2>Welcome to Our Commiunity</h2>
+          <p style="padding-top: 25px;" >"Welcome to our Movie & TV Series Collection, where entertainment meets discovery! We are passionate about bringing you the latest and greatest in the world of cinema and television.</p> 
+            
+          <p style="padding-top: 25px;">Our dedicated team curates a diverse selection of movies and TV series, ensuring there's something for every taste. Whether you're a fan of action, drama, comedy, or suspense, we've got you covered. Explore our collection, immerse yourself in captivating stories, and stay tuned for updates on the latest releases. </p>
+
+          <p style="padding-top: 25px;">Join us on this cinematic journey, and let the magic of storytelling unfold at your fingertips."</p>
+        </div>
+        <img src="images/banner.jpg" alt="Team Photo">
+      </div>
+    </div>
+  </section>
+
+<footer>
+  &copy2024 Hobby Nut
+</footer>
+
+
+  <script>
+    function toggleMenu() {
+        var navElement = document.querySelector('nav');
+        navElement.classList.toggle('responsive');
+    }
+</script>
+  
+</body>
+</html>
